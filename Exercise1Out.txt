@@ -1,0 +1,50 @@
+Output 1
+
+Enter tools to be stored in the format ItemName ID
+Enter quit to end the list of tools
+Hammer 1
+saw 2
+level 3
+level 3
+error, ID already used
+level 4
+saw 5
+quit
+0
+item: HammerI hammer stuff ID: 1
+item: saw I saw stuff ID: 2
+item: levelI make sure everything is even ID: 3
+item: levelI make sure everything is even ID: 4
+item: saw I saw stuff ID: 5
+Would you like to retrieve a tool and add it to the workbelt? yes/no
+yes
+Enter item ID
+1
+Adding tool to the workbelt
+
+Output 2
+
+Enter tools to be stored in the format ItemName ID
+Enter quit to end the list of tools
+Hammer 1
+Saw 2
+Level 3
+level 3
+error, ID already used
+level 4
+saw 5
+quit 
+0
+item: HammerI hammer stuff ID: 1
+item: Saw I saw stuff ID: 2
+item: LevelI make sure everything is even ID: 3
+item: levelI make sure everything is even ID: 4
+item: saw I saw stuff ID: 5
+Would you like to retrieve a tool and add it to the workbelt? yes/no
+no
+item: HammerI hammer stuff ID: 1
+item: Saw I saw stuff ID: 2
+item: LevelI make sure everything is even ID: 3
+item: levelI make sure everything is even ID: 4
+item: saw I saw stuff ID: 5
+BUILD SUCCESSFUL (total time: 35 seconds)
